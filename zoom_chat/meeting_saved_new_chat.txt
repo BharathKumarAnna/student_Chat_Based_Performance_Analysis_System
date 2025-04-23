@@ -1,0 +1,166 @@
+09:08:24 From Shilpa Vaidya to Everyone:
+	create a project
+	
+12:01:13 From ANKIT KUMAR SINGH to Everyone:
+	The Ultimate CICD Corporate DevOps Pipeline Project | Real-Time DevOps Project
+
+12:38:29 From BHARATH KUMAR ANNA to Everyone:
+	Timestamp
+	Student name
+	Message text
+	
+12:40:12 From BHARATH KUMAR ANNA to Everyone:
+	Student
+	#Messages
+	Avg Sentiment
+	Keywords
+	Avg Response Time
+	John
+	5
+	+0.6
+	"DSA", "Java"
+	4.2 sec
+	
+12:40:58 From BHARATH KUMAR ANNA to Everyone:
+	engagement = (message_count * weight1) + (avg_sentiment * weight2) - (avg_response_delay * weight3)
+	
+12:41:56 From BHARATH KUMAR ANNA to Everyone:
+	Top engaged students
+	Sentiment trend over time
+	Inactive students
+	Heatmap of responses during session
+	
+12:44:53 From BHARATH KUMAR ANNA to Everyone:
+	To analyze real-time or recorded Zoom chat/comments and extract:
+	Engagement score
+	Participation frequency
+	Sentiment (positive/negative)
+	Keyword tracking (for concepts/topics)
+	Response time after a question (latency)
+	
+12:55:53 From ANKIT KUMAR SINGH to Everyone:
+	ankitsingh2633
+	
+12:56:11 From ANKIT KUMAR SINGH to Everyone:
+	ankitsingh2633kvs@gmail.com
+	
+13:12:39 From Shilpa Vaidya to Everyone:
+	============================
+	
+13:12:43 From Shilpa Vaidya to Everyone:
+	Title
+	
+13:12:47 From Shilpa Vaidya to Everyone:
+	================
+	
+13:12:52 From Shilpa Vaidya to Everyone:
+	Backlog
+	
+13:12:56 From Shilpa Vaidya to Everyone:
+	==========================
+	
+14:03:48 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	Hi bro
+	
+14:03:54 From ANKIT KUMAR SINGH to BHARATH KUMAR ANNA (direct message):
+	what you know about python
+	
+14:03:59 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	Lets discuss on DSA
+	
+14:04:15 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	Any idea on arrays
+	
+14:04:25 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	Or can we do lists
+	
+14:04:34 From ANKIT KUMAR SINGH to BHARATH KUMAR ANNA (direct message):
+	tree and stack is my fav
+	
+14:04:43 From BHARATH to ANKIT KUMAR SINGH (direct message):
+	Stacks are good I think
+	
+14:04:49 From ANKIT KUMAR SINGH to BHARATH KUMAR ANNA (direct message):
+	arrays are good as well
+	
+14:04:53 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	I am bharath
+	
+14:04:58 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	Good night
+	
+14:05:01 From ANKIT KUMAR SINGH to BHARATH KUMAR ANNA (direct message):
+	by the way where do you live
+	
+14:05:06 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	Binary search
+	
+14:05:20 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	Linear search is better may be
+	
+14:05:38 From ANKIT KUMAR SINGH to BHARATH KUMAR ANNA (direct message):
+	I heard that hydrabad is good
+	
+14:05:45 From BHARATH KUMAR ANNA to ANKIT KUMAR SINGH (direct message):
+	We are having 5 important sorting.
+
+14:05:00 From BHARATH KUMARI SINGH to NEHA GUPTA RAO (direct message):
+	This needs to be pushed to production
+
+14:05:09 From ANKIT SINGH RAO to BHARATH SHARMA (direct message):
+	We are having 5 important sorting tasks
+
+14:05:15 From VIKRAM ANNA to BHARATH GUPTA (direct message):
+	This needs to be pushed to production
+
+14:05:28 From NEHA GUPTA RAO to SNEHA KUMARI (direct message):
+	Did you check the logs from yesterday?
+
+14:05:42 From RAHUL ANNA RAO to TARUN KUMARI ANNA (direct message):
+	We are having 5 important sorting tasks
+
+14:05:50 From ANKIT NAYAK RAO to SNEHA ANNA SINGH (direct message):
+	Try using TextBlob for sentiment
+
+14:05:57 From NEHA NAYAK to VIKRAM ANNA (direct message):
+	We need a new fraud rule for repeated sends
+
+14:06:09 From BHARATH GUPTA to NEHA NAYAK ANNA (direct message):
+	Try using TextBlob for sentiment
+
+14:06:18 From ARUN RAO SINGH to NEHA JOSHI ANNA (direct message):
+	UPI ID creation worked well
+
+14:07:00 From ARUN GUPTA NAYAK to ANKIT NAYAK NAYAK (direct message):
+	I heard that hydrabad is good
+
+14:07:11 From BHARATH KUMAR SHARMA to PRIYA SINGH RAO (direct message):
+	We are having 5 important sorting.
+
+14:07:16 From SNEHA GUPTA GUPTA to TARUN KUMAR KUMAR (direct message):
+	Account balance update is working
+
+14:07:23 From NEHA GUPTA NAYAK to VIKRAM ANNA SHARMA (direct message):
+	UPI ID creation worked well
+
+14:07:35 From VIKRAM GUPTA ANNA to SACHIN GUPTA ANNA (direct message):
+	UPI ID creation worked well
+
+14:07:47 From NEHA RAO SHARMA to PRIYA NAYAK GUPTA (direct message):
+	Did you check the logs from yesterday?
+
+14:07:57 From NEHA RAO KUMAR to VIKRAM RAO RAO (direct message):
+	Try using TextBlob for sentiment
+
+14:08:10 From NEHA NAYAK GUPTA to ANKIT KUMAR GUPTA (direct message):
+	Add new user flow tested
+
+14:08:16 From VIKRAM RAO NAYAK to BHARATH ANNA RAO (direct message):
+	UPI ID creation worked well
+
+14:08:29 From ANKIT JOSHI RAO to TARUN SINGH RAO (direct message):
+	Did you check the logs from yesterday?
+
+
+
+	

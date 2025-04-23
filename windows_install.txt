@@ -1,0 +1,47 @@
+(w)pip install textblob
+
+(w)python -m textblob.download_corpora
+
+VS Code Extension : SQLite Viewer or SQLite
+
+(w)pip install keybert sentence-transformers scikit-learn
+
+(w)
+sudo apt install -y grafana
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+grafana-cli plugins install frser-sqlite-datasource
+sudo systemctl restart grafana-server
+             (or)
+------------------------------            
+services:
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    environment:
+      - GF_INSTALL_PLUGINS=frser-sqlite-datasource
+
+volumes:
+  grafana-storage:
+----------------------------------
+Go to Grafana → Configuration → Data Sources
+
+Click "Add data source"
+
+Choose "SQLite"
+
+Set:
+
+Database Path: /path/to/zoom_chat.db
+
+Name: ZoomChatDB
+
+Cache TTL: optional
+
+
+
+
+

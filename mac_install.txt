@@ -1,0 +1,133 @@
+(mac) -> pip3 install textblob
+
+(mac) -> python3 -m textblob.download_corpora
+
+(mac) -> pip3 install keybert sentence-transformers scikit-learn
+
+VS Code Extension : SQLite Viewer or SQLite
+
+(mac)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update
+brew install grafana
+brew services start grafana
+ps aux | grep grafana
+
+http://localhost:3000
+
+Default login: admin / admin
+
+uname: bharath@grafana
+psw: bharath@grafana
+
+If you installed Grafana via Homebrew, you might also need to set plugin paths manually:
+
+sudo mkdir -p /usr/local/var/lib/grafana/plugins
+psw: bharath@123
+sudo chown -R $(whoami) /usr/local/var/lib/grafana/plugins
+
+
+
+
+
+
+
+
+
+
+
+
+✅ Current Progress Summary
+✅ Zoom Chat Export (TXT)
+
+✅ Parsed with Python + NLP (TextBlob)
+
+✅ Stored in SQLite
+
+✅ Visualized in Grafana with metrics + alerts
+
+🧭 Next Steps in the Project
+🔁 1. Automate Chat Log Processing
+Turn your analysis script into a daily/weekly automated pipeline.
+
+Monitor Zoom folder for new .txt files
+
+Parse and insert into SQLite automatically
+
+Use watchdog, cron, or a Python loop
+
+bash
+Copy
+Edit
+*/5 * * * * /usr/bin/python3 /Users/bharath/parse_chat_and_update.py
+🧮 2. Add Engagement Scoring
+Enhance insights with an engagement score per student:
+
+python
+Copy
+Edit
+score = (message_count * 1.5) + (avg_sentiment * 10) - (avg_response_time * 2)
+Store it in a new engagement_metrics table:
+
+sql
+Copy
+Edit
+CREATE TABLE engagement_metrics (
+  sender TEXT,
+  message_count INT,
+  avg_sentiment FLOAT,
+  avg_response_time FLOAT,
+  engagement_score FLOAT
+);
+Show this in Grafana + export it to CSV.
+
+🌐 3. Create a Flask Web Dashboard
+Complement Grafana with a custom Flask dashboard:
+
+Filter chats by name, time range
+
+Display top messages
+
+Export reports for faculty
+
+Embed visual charts with Plotly or Chart.js
+
+📤 4. Export Reports for Teachers
+Generate PDF/Excel reports using:
+
+pandas + openpyxl
+
+weasyprint or reportlab for PDF
+
+Export per session:
+
+bash
+Copy
+Edit
+python generate_report.py --session "2025-04-23"
+🚨 5. Advanced NLP
+Improve sentiment and topic detection:
+
+Use spaCy for named entity extraction
+
+Track keyword mentions like “assignment”, “doubt”, “project”
+
+Detect question count (messages with ?)
+
+☁️ 6. Deploy It to the Web
+Host your Flask app:
+
+Use Render / Railway / Heroku / AWS EC2
+
+Store chat logs in PostgreSQL instead of SQLite for scalability
+
+📈 7. Integrate with Prometheus (optional SRE upgrade)
+Export metrics like:
+
+Total chat messages
+
+Participation rate
+
+Sentiment anomalies Then visualize in Grafana via Prometheus exporters
+
+
