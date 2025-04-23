@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoom Engagement Analytics</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- ApexCharts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.35.0/dist/apexcharts.min.css">
+  <style>
+    :root {
+      --sidebar-width: 240px;
+      --sidebar-bg: #1e293b;
+      --sidebar-active: #3b82f6;
+      --primary: #3b82f6;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --light-bg: #f8fafc;
+      --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light-bg);
+      color: #334155;
+    }
+
+    /* Sidebar Styles */
+    .sidebar {
+      width: var(--sidebar-width);
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background: var(--sidebar-bg);
+      color: white;
+      transition: all 0.3s;
+      z-index: 1000;
+    }
+
+    .sidebar-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .sidebar-menu {
+      padding: 1rem 0;
+      list-style: none;
+    }
+
+    .sidebar-menu li {
+      position: relative;
+      margin: 0.25rem 0.75rem;
+    }
+
+    .sidebar-menu a {
+      display: flex;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      border-radius: 0.5rem;
+      transition: all 0.3s;
+    }
+
+    .sidebar-menu a:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+
+    .sidebar-menu a.active {
+      background: var(--sidebar-active);
+      color: white;
+    }
+
+    .sidebar-menu i {
+      width: 1.5rem;
+      margin-right: 0.75rem;
+      text-align: center;
+    }
+
+    /* Main Content Styles */
+    .main-content {
+      margin-left: var(--sidebar-width);
+      padding: 2rem;
+      transition: all 0.3s;
+    }
+
+    /* Card Styles */
+    .card {
+      border: none;
+      border-radius: 0.75rem;
+      box-shadow: var(--card-shadow);
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-header {
+      background: white;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 1.25rem 1.5rem;
+      border-radius: 0.75rem 0.75rem 0 0 !important;
+    }
+
+    /* Stat Cards */
+    .stat-card {
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      color: white;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .stat-card i {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .stat-card .count {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-card .label {
+      font-size: 0.875rem;
+      opacity: 0.9;
+    }
+
+    /* Form Styles */
+    .upload-area {
+      border: 2px dashed #cbd5e1;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s;
+      background: rgba(241, 245, 249, 0.5);
+    }
+
+    .upload-area:hover {
+      border-color: var(--primary);
+      background: rgba(59, 130, 246, 0.05);
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 992px) {
+      .sidebar {
+        transform: translateX(-100%);
+      }
+      .sidebar.active {
+        transform: translateX(0);
+      }
+      .main-content {
+        margin-left: 0;
+      }
+      #sidebarToggle {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-header text-center">
+      <h4><i class="fas fa-video me-2"></i>Zoom Analytics</h4>
+      <small class="text-muted">Engagement Dashboard</small>
+    </div>
+    <ul class="sidebar-menu">
+      <li>
+        <a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-chart-line"></i> Engagement</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-smile"></i> Sentiment</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-users"></i> Participation</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-tags"></i> Topics</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-cog"></i> Settings</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-4">
+      <div>
+        <h2 class="mb-1"><i class="fas fa-tachometer-alt me-2 text-primary"></i>Dashboard Overview</h2>
+        <p class="text-muted mb-0">Analyze participant engagement in Zoom sessions</p>
+      </div>
+      <div>
+        <select id="timeRange" class="form-select form-select-sm">
+          <option value="7">Last 7 Days</option>
+          <option value="30" selected>Last 30 Days</option>
+          <option value="90">Last 90 Days</option>
+          <option value="all">All Time</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="row mb-4 g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card" style="background: linear-gradient(135deg, var(--primary), #60a5fa);">
+          <i class="fas fa-users"></i>
+          <div class="count" id="totalParticipants">42</div>
+          <div class="label">Unique Participants</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card" style="background: linear-gradient(135deg, var(--success), #34d399);">
+          <i class="fas fa-comments"></i>
+          <div class="count" id="totalMessages">231</div>
+          <div class="label">Total Messages</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card" style="background: linear-gradient(135deg, var(--warning), #fbbf24);">
+          <i class="fas fa-star"></i>
+          <div class="count" id="avgEngagement">78%</div>
+          <div class="label">Avg Engagement</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card" style="background: linear-gradient(135deg, var(--danger), #f87171);">
+          <i class="fas fa-clock"></i>
+          <div class="count" id="avgResponseTime">12s</div>
+          <div class="label">Avg Response Time</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Left Column -->
+      <div class="col-lg-8">
+        <!-- Engagement Trend -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-chart-line me-2"></i>Engagement Trend
+          </div>
+          <div class="card-body">
+            <div id="engagementTrendChart"></div>
+          </div>
+        </div>
+
+        <!-- Recent Sessions -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-calendar-alt me-2"></i>Recent Sessions
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Topic</th>
+                    <th>Participants</th>
+                    <th>Engagement</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2023-06-15</td>
+                    <td>Project Kickoff</td>
+                    <td>12</td>
+                    <td><span class="badge bg-success">82%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-outline-primary">Details</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2023-06-14</td>
+                    <td>Team Sync</td>
+                    <td>8</td>
+                    <td><span class="badge bg-warning">65%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-outline-primary">Details</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2023-06-12</td>
+                    <td>Training Session</td>
+                    <td>15</td>
+                    <td><span class="badge bg-success">78%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-outline-primary">Details</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-lg-4">
+        <!-- File Upload -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-upload me-2"></i>Upload Zoom Chat
+          </div>
+          <div class="card-body">
+            <form method="POST" enctype="multipart/form-data" action="/upload">
+              <div class="upload-area mb-3" id="dropArea">
+                <i class="fas fa-file-import fa-3x mb-3"></i>
+                <h5>Drag & Drop Zoom Chat File</h5>
+                <p class="text-muted">or click to browse files</p>
+                <input type="file" class="d-none" id="chatFile" name="chatFile" required>
+              </div>
+              <div class="mb-3">
+                <label for="topic" class="form-label">Session Topic</label>
+                <input type="text" class="form-control" id="topic" name="topic" placeholder="e.g., Project Kickoff" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                <i class="fas fa-paper-plane me-2"></i>Analyze Chat
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Sentiment Analysis -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-smile me-2"></i>Sentiment Analysis
+          </div>
+          <div class="card-body">
+            <div id="sentimentChart"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.35.0/dist/apexcharts.min.js"></script>
+  
+  <script>
+    // Engagement Trend Chart
+    const engagementOptions = {
+      series: [{
+        name: 'Engagement Score',
+        data: [65, 72, 68, 82, 78, 85, 90]
+      }],
+      chart: {
+        height: 350,
+        type: 'line',
+        toolbar: {
+          show: false
+        }
+      },
+      colors: ['#3b82f6'],
+      stroke: {
+        width: 3,
+        curve: 'smooth'
+      },
+      markers: {
+        size: 6,
+        strokeWidth: 0,
+        hover: {
+          size: 8
+        }
+      },
+      xaxis: {
+        categories: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+        labels: {
+          style: {
+            colors: '#64748b'
+          }
+        }
+      },
+      yaxis: {
+        min: 0,
+        max: 100,
+        labels: {
+          style: {
+            colors: '#64748b'
+          },
+          formatter: function(val) {
+            return val + '%';
+          }
+        }
+      },
+      grid: {
+        borderColor: '#e2e8f0'
+      },
+      tooltip: {
+        y: {
+          formatter: function(val) {
+            return val + '% engagement';
+          }
+        }
+      }
+    };
+
+    const engagementChart = new ApexCharts(document.querySelector("#engagementTrendChart"), engagementOptions);
+    engagementChart.render();
+
+    // Sentiment Chart
+    const sentimentOptions = {
+      series: [65, 25, 10],
+      chart: {
+        type: 'donut',
+        height: 300
+      },
+      labels: ['Positive', 'Neutral', 'Negative'],
+      colors: ['#10b981', '#f59e0b', '#ef4444'],
+      legend: {
+        position: 'bottom'
+      },
+      plotOptions: {
+        pie: {
+          donut: {
+            size: '65%',
+            labels: {
+              show: true,
+              total: {
+                show: true,
+                label: 'Total',
+                formatter: function(w) {
+                  return w.globals.seriesTotals.reduce((a, b) => a + b, 0) + '%';
+                }
+              }
+            }
+          }
+        }
+      },
+      responsive: [{
+        breakpoint: 480,
+        options: {
+          chart: {
+            width: 200
+          },
+          legend: {
+            position: 'bottom'
+          }
+        }
+      }]
+    };
+
+    const sentimentChart = new ApexCharts(document.querySelector("#sentimentChart"), sentimentOptions);
+    sentimentChart.render();
+
+    // File Upload Interaction
+    const dropArea = document.getElementById('dropArea');
+    const fileInput = document.getElementById('chatFile');
+
+    dropArea.addEventListener('click', () => {
+      fileInput.click();
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      if (fileInput.files.length) {
+        const fileName = fileInput.files[0].name;
+        dropArea.innerHTML = `
+          <i class="fas fa-file-alt fa-3x mb-3"></i>
+          <h5>${fileName}</h5>
+          <p class="text-muted">Ready to analyze</p>
+        `;
+      }
+    });
+
+    // Drag and Drop functionality
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+      dropArea.addEventListener(eventName, preventDefaults, false);
+    });
+
+    function preventDefaults(e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropArea.addEventListener(eventName, highlight, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropArea.addEventListener(eventName, unhighlight, false);
+    });
+
+    function highlight() {
+      dropArea.style.borderColor = '#3b82f6';
+      dropArea.style.backgroundColor = 'rgba(59, 130, 246, 0.1)';
+    }
+
+    function unhighlight() {
+      dropArea.style.borderColor = '#cbd5e1';
+      dropArea.style.backgroundColor = 'rgba(241, 245, 249, 0.5)';
+    }
+
+    dropArea.addEventListener('drop', handleDrop, false);
+
+    function handleDrop(e) {
+      const dt = e.dataTransfer;
+      const files = dt.files;
+      fileInput.files = files;
+      
+      if (files.length) {
+        const fileName = files[0].name;
+        dropArea.innerHTML = `
+          <i class="fas fa-file-alt fa-3x mb-3"></i>
+          <h5>${fileName}</h5>
+          <p class="text-muted">Ready to analyze</p>
+        `;
+      }
+    }
+  </script>
+</body>
+</html>
