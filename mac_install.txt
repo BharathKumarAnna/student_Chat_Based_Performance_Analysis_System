@@ -131,3 +131,16 @@ Participation rate
 Sentiment anomalies Then visualize in Grafana via Prometheus exporters
 
 
+
+FRONT-END REQUIREMENTS:
+
+flask
+flask_sqlalchemy
+pymysql
+
+pip3 install flask flask_sqlalchemy pymysql
+
+#brew install nginx
+
+grafana-cli plugins install grafana-image-renderer
+brew services restart grafana

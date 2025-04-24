@@ -1,0 +1,851 @@
+11:04:04 From Dipti Dhande to Shilpa Vaidya (direct message):
+	I have it at 2pm
+	
+11:05:48 From Shilpa Vaidya to Everyone:
+	=====================
+	
+11:06:21 From nandan reddy to Shilpa Vaidya (direct message):
+	created backend and frontend for authentication
+	
+11:06:22 From Aman Prakash to Shilpa Vaidya (direct message):
+	Feature 1 is complete
+	
+11:06:23 From Shrihari R Bedre to Shilpa Vaidya (direct message):
+	Sign in and Sign up is done madam
+	
+11:06:32 From Prashanth Chowdary Upputuri to Shilpa Vaidya (direct message):
+	working on authentication part 
+	
+	Team 03
+	
+11:06:53 From nandan reddy to Shilpa Vaidya (direct message):
+	now we will add dashboard and also forgot password feature
+	
+11:07:38 From Mounika to Shilpa Vaidya (direct message):
+	team -4 we assign the roles to developer,manager
+	
+11:07:38 From Aman Prakash to Shilpa Vaidya (direct message):
+	Replying to "Feature 1 is complete":
+	Django project has been setup and an api is created for getting the output prediction from the ML model.
+	
+11:08:06 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	mam we have created dashboard,login,register pages and GitHub repos and db schemas
+	
+11:08:10 From Aman Prakash to Shilpa Vaidya (direct message):
+	Replying to "Feature 1 is complete":
+	will setup MySQL db next
+	
+11:08:17 From Mounika to Shilpa Vaidya (direct message):
+	login,signup page is update
+	
+11:09:12 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	yes mam yes yes
+	
+11:09:26 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	yes mam
+	
+11:09:35 From Bhaskar Pakki to Shilpa Vaidya (direct message):
+	yes mam
+	
+11:09:36 From Shrujan to Shilpa Vaidya (direct message):
+	yes mam
+	
+11:09:49 From nandan reddy to Shilpa Vaidya (direct message):
+	atleast till lunch we need
+	
+11:09:50 From Aman Prakash to Shilpa Vaidya (direct message):
+	Yes ma'am
+	
+11:09:52 From Chethan G to Shilpa Vaidya (direct message):
+	okay ma'am
+	
+11:09:52 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	yes mam
+	
+11:09:53 From Mounika to Shilpa Vaidya (direct message):
+	yes mam
+	
+11:09:54 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	ok mam
+	
+11:10:13 From BHARATH KUMAR ANNA to Shilpa Vaidya (direct message):
+	Yes mam.
+	
+11:10:13 From Bhaskar Pakki to Shilpa Vaidya (direct message):
+	yes mam
+	
+11:10:14 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	yes mam
+	
+12:52:41 From nandan reddy to Everyone:
+	Uncaught runtime errors:×
+	ERROR
+	Failed to fetch
+	TypeError: Failed to fetch
+	    at signin (http://localhost:3000/static/js/bundle.js:32908:21)
+	    at handleSubmit (http://localhost:3000/static/js/bundle.js:33094:67)
+	    at executeDispatch (http://localhost:3000/static/js/bundle.js:11065:7)
+	    at runWithFiberInDEV (http://localhost:3000/static/js/bundle.js:3808:68)
+	    at processDispatchQueue (http://localhost:3000/static/js/bundle.js:11093:31)
+	    at http://localhost:3000/static/js/bundle.js:11386:7
+	    at batchedUpdates$1 (http://localhost:3000/static/js/bundle.js:4656:38)
+	    at dispatchEventForPluginEventSystem (http://localhost:3000/static/js/bundle.js:11169:5)
+	    at dispatchEvent (http://localhost:3000/static/js/bundle.js:13268:31)
+	    at dispatchDiscreteEvent (http://localhost:3000/static/js/bundle.js:13250:58)
+	
+12:54:08 From Shilpa Vaidya to Everyone:
+	pip install django-cors-headers
+	
+13:02:20 From Shilpa Vaidya to Everyone:
+	python flask project with react
+	
+15:03:38 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	yes mam
+	
+15:03:46 From Prashanth Chowdary Upputuri to Shilpa Vaidya (direct message):
+	yes mam
+	
+15:06:34 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	no mam
+	
+15:06:45 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	now we can
+	
+15:14:20 From nandan reddy to Shilpa Vaidya (direct message):
+	none
+	
+15:14:27 From nandan reddy to Shilpa Vaidya (direct message):
+	stop
+	
+15:14:42 From nandan reddy to Shilpa Vaidya (direct message):
+	next !=none
+	
+15:14:47 From Mounika to Shilpa Vaidya (direct message):
+	ob3
+	
+15:17:13 From Shilpa Vaidya to Everyone:
+	{74B703EB-177A-4C1D-A3D5-0C73DC4C51B6}.png
+	Bhaskar Pakki, SESHADRI NAIDU, nandan reddy, Sampath Vuda, Prabhala Bala Subrahmanyam, Jagadesh, Chethan, Shrihari R Bedre, Kunal Shaw, Prashanth Chowdary Upputuri, Mounika, Sushanth Reddy, Sameena Yasmin, Dipti Dhande, Shrujan, Piyush Sharma, Sai Likhitha Yalavarthi, Navyatha A:👍
+	
+15:20:06 From nandan reddy to Shilpa Vaidya (direct message):
+	you are on mute mam
+	
+15:20:26 From Shilpa Vaidya to nandan reddy (direct message):
+	Replying to "you are on mute mam":
+	nono i spoke to mom
+	
+15:20:53 From nandan reddy to Shilpa Vaidya (direct message):
+	Replying to "you are on mute mam":
+	oh okay got it 😄
+	Shilpa Vaidya:😂
+	
+15:23:49 From Mounika to Shilpa Vaidya (direct message):
+	none
+	
+15:24:26 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	next?
+	
+15:24:54 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	head
+	
+15:25:41 From Mounika to Shilpa Vaidya (direct message):
+	1
+	
+15:26:11 From Mounika to Shilpa Vaidya (direct message):
+	head
+	
+15:27:44 From Mounika to Shilpa Vaidya (direct message):
+	1000
+	
+15:30:51 From Mounika to Shilpa Vaidya (direct message):
+	no elements
+	
+15:35:16 From Mounika to Shilpa Vaidya (direct message):
+	33
+	
+15:35:53 From Mounika to Shilpa Vaidya (direct message):
+	1000
+	
+15:35:59 From Mounika to Shilpa Vaidya (direct message):
+	11
+	
+15:36:10 From Mounika to Shilpa Vaidya (direct message):
+	stop
+	
+15:39:33 From Shilpa Vaidya to Everyone:
+	{939AD90A-80DC-450F-AE67-91F13DBB63A9}.png
+	Bhaskar Pakki, SESHADRI NAIDU, nandan reddy, Prashanth Chowdary Upputuri, Chethan, Jagadesh, Mounika, Sampath Vuda, Kunal Shaw, Piyush Sharma, Sai Likhitha Yalavarthi, Shrihari R Bedre, Prabhala Bala Subrahmanyam, Shrujan, Navyatha A:👍
+	
+15:39:46 From Shilpa Vaidya to Everyone:
+	{DD039C4F-46BC-4A9D-8884-CD2D81ABE7FF}.png
+	Bhaskar Pakki, Sameena Yasmin, Shrujan, nandan reddy, Prashanth Chowdary Upputuri, Chethan, Sampath Vuda, Jagadesh, Mounika, Kunal Shaw, Piyush Sharma, SESHADRI NAIDU, Dipti Dhande, Prabhala Bala Subrahmanyam, Shrihari R Bedre, Rania, Sai Likhitha Yalavarthi, Navyatha A:👍
+	
+15:50:43 From Mounika to Shilpa Vaidya (direct message):
+	t
+	
+15:50:49 From Mounika to Shilpa Vaidya (direct message):
+	3000
+	
+15:51:00 From Mounika to Shilpa Vaidya (direct message):
+	f
+	
+15:55:04 From Piyush Sharma to Shilpa Vaidya (direct message):
+	Got a call for mock interview tmrw
+	Shilpa Vaidya:❤️
+	
+15:55:13 From Piyush Sharma to Shilpa Vaidya (direct message):
+	just now
+	
+15:55:18 From Shilpa Vaidya to Piyush Sharma (direct message):
+	Replying to "just now":
+	awesome
+	
+15:55:28 From Shilpa Vaidya to Piyush Sharma (direct message):
+	Replying to "just now":
+	so the talks are working with team
+	
+15:55:51 From Piyush Sharma to Shilpa Vaidya (direct message):
+	Replying to "just now":
+	Ig yes...
+	
+15:56:14 From Piyush Sharma to Shilpa Vaidya (direct message):
+	Replying to "just now":
+	Thank you so much mam... you are awesome🫠
+	Shilpa Vaidya:❤️
+	
+15:57:04 From Shilpa Vaidya to Everyone:
+	{C99AF9CF-E1F6-4D02-8307-0DE5097A52FD}.png
+	Sameena Yasmin, Piyush Sharma, Shrujan, SESHADRI NAIDU, Sai Likhitha Yalavarthi, Prashanth Chowdary Upputuri, Kunal Shaw, nandan reddy, Chethan, Prabhala Bala Subrahmanyam, Bhaskar Pakki:👍
+	
+15:57:14 From Shilpa Vaidya to Everyone:
+	{5FA09716-41B9-43A4-A4D6-33DAC49B4A9E}.png
+	Sameena Yasmin, Piyush Sharma, Dipti Dhande, Aman Prakash, Shrujan, Mounika, Shrihari R Bedre, SESHADRI NAIDU, Kunal Shaw, Jagadesh, Prashanth Chowdary Upputuri, Sreemathi varshini, Chethan, nandan reddy, Prabhala Bala Subrahmanyam, Bhaskar Pakki:👍
+	
+15:57:43 From Shilpa Vaidya to Piyush Sharma (direct message):
+	Replying to "just now":
+	actually Imran was on leave so tomorrow we are having discussion even with him
+	
+15:58:02 From Shilpa Vaidya to Piyush Sharma (direct message):
+	Replying to "just now":
+	so probably internal changes are happening
+	
+15:59:39 From Piyush Sharma to Shilpa Vaidya (direct message):
+	Replying to "just now":
+	yeah seems like that
+	
+16:03:28 From Aman Prakash to Everyone:
+	Me?
+	Sushanth Reddy, Bhaskar Pakki, Aman Prakash, Sampath Vuda:😂
+	Sampath Vuda:🤧
+	Aman Prakash, Shrihari R Bedre, Piyush Sharma:🥲
+	
+16:04:16 From BHARATH KUMAR ANNA to Everyone:
+	My sim is not working today. I can’t get call…🥲
+	Sameena Yasmin:👍
+	Shrujan, Sampath Vuda:😂
+	Shrihari R Bedre:🥹
+	Piyush Sharma, Prashanth Chowdary Upputuri, Aman Prakash, Bhaskar Pakki:🫠
+	
+16:05:42 From Shilpa Vaidya to Everyone:
+	===================
+	
+16:05:46 From Shilpa Vaidya to Everyone:
+	Bangalore
+	Navyatha A, Chethan, Shrihari R Bedre:👍
+	
+16:06:11 From Shilpa Vaidya to Everyone:
+	Hyderabad/Andrapradesh..
+	Sushanth Reddy, Sameena Yasmin, BHARATH KUMAR ANNA, Shrujan, Prabhala Bala Subrahmanyam, Jagadesh, SESHADRI NAIDU, Mounika, Bhaskar Pakki, Prashanth Chowdary Upputuri, nandan reddy, Sai Likhitha Yalavarthi, Sampath Vuda:👍
+	
+16:06:39 From Aman Prakash to Everyone:
+	Mumbai
+	
+16:06:40 From Shilpa Vaidya to Everyone:
+	North
+	Piyush Sharma:👍
+	
+16:07:31 From Shrujan to Everyone:
+	@Kunal Shaw
+	
+16:07:42 From Kunal Shaw to Everyone:
+	Replying to "@Kunal Shaw":
+	yes from Kolkata
+	
+16:08:00 From Kunal Shaw to Everyone:
+	Kolkata, west bengal
+	
+16:09:09 From Mounika to Shilpa Vaidya (direct message):
+	head = null
+	
+16:10:29 From Dipti Dhande to Shilpa Vaidya (direct message):
+	4
+	
+16:10:29 From Mounika to Shilpa Vaidya (direct message):
+	4
+	
+16:10:32 From Aman Prakash to Shilpa Vaidya (direct message):
+	4
+	
+16:10:39 From Mounika to Shilpa Vaidya (direct message):
+	11
+	
+16:10:41 From Aman Prakash to Shilpa Vaidya (direct message):
+	1000
+	
+16:10:42 From Dipti Dhande to Shilpa Vaidya (direct message):
+	1000
+	
+16:10:44 From SESHADRI NAIDU to Shilpa Vaidya (direct message):
+	1000
+	
+16:10:45 From nandan reddy to Shilpa Vaidya (direct message):
+	1000
+	
+16:10:54 From nandan reddy to Shilpa Vaidya (direct message):
+	11
+	
+16:10:56 From Kunal Shaw to Shilpa Vaidya (direct message):
+	11
+	
+16:10:58 From Dipti Dhande to Shilpa Vaidya (direct message):
+	head.data
+	
+16:11:24 From nandan reddy to Shilpa Vaidya (direct message):
+	head =2000
+	
+16:11:26 From Dipti Dhande to Shilpa Vaidya (direct message):
+	head=head.next
+	
+16:11:37 From Dipti Dhande to Shilpa Vaidya (direct message):
+	2000
+	
+16:11:39 From Mounika to Shilpa Vaidya (direct message):
+	2000
+	
+16:12:29 From Dipti Dhande to Shilpa Vaidya (direct message):
+	None
+	
+16:12:30 From Aman Prakash to Shilpa Vaidya (direct message):
+	None
+	
+16:12:30 From Mounika to Shilpa Vaidya (direct message):
+	none
+	
+16:14:12 From Shilpa Vaidya to Everyone:
+	{B9A93916-C862-48DF-8017-E9E298CF3900}.png
+	Aman Prakash, nandan reddy, Sameena Yasmin, Chethan, Shrihari R Bedre, Kunal Shaw, Piyush Sharma, Mounika, SESHADRI NAIDU, Prashanth Chowdary Upputuri, Sampath Vuda, Prabhala Bala Subrahmanyam, Bhaskar Pakki, Dipti Dhande, Sai Likhitha Yalavarthi, Sreemathi varshini, Rania, BHARATH KUMAR ANNA, Shrujan:👍
+	
+16:19:41 From Dipti Dhande to Shilpa Vaidya (direct message):
+	33
+	
+16:19:43 From Mounika to Shilpa Vaidya (direct message):
+	3000
+	
+16:20:11 From Dipti Dhande to Shilpa Vaidya (direct message):
+	200.next
+	
+16:20:16 From Kunal Shaw to Shilpa Vaidya (direct message):
+	2000 next will become none
+	
+16:20:18 From Mounika to Shilpa Vaidya (direct message):
+	2000
+	
+16:20:22 From Sushanth Reddy to Shilpa Vaidya (direct message):
+	no
+	
+16:22:02 From Mounika to Shilpa Vaidya (direct message):
+	stop
+	
+16:22:19 From Dipti Dhande to Shilpa Vaidya (direct message):
+	cp
+	
+16:22:21 From Mounika to Shilpa Vaidya (direct message):
+	cp
+	
+16:22:25 From Aman Prakash to Shilpa Vaidya (direct message):
+	cp
+	
+16:22:59 From Aman Prakash to Shilpa Vaidya (direct message):
+	None
+	
+16:28:41 From Shilpa Vaidya to Everyone:
+	{79EC6D60-3C9E-447F-9687-33DF50CE4D44}.png
+	Aman Prakash, Shrujan, Piyush Sharma, SESHADRI NAIDU, Sameena Yasmin, Prashanth Chowdary Upputuri, Kunal Shaw, Mounika, Prabhala Bala Subrahmanyam, Chethan, Shrihari R Bedre, Sai Likhitha Yalavarthi, Dipti Dhande, Sampath Vuda, Rania, Sreemathi varshini:👍
+	
+16:29:10 From BHARATH KUMAR ANNA to Shilpa Vaidya (direct message):
+	Mam, I have one request. at the end of session,
+	I want everyone to chat something in chat box related to some topic. So that I can TEST this data in my project…
+	
+	And I request you to download this chat and send me at the end of session plzzz…
+	Shilpa Vaidya:👍
+	
+16:30:05 From Shilpa Vaidya to Everyone:
+	=========================
+	
+16:34:32 From Shilpa Vaidya to Everyone:
+	pos = 3
+	
+16:35:28 From Piyush Sharma to Shilpa Vaidya (direct message):
+	Mam can I leave early?...Got something urgent to do rn
+	Shilpa Vaidya:👍
+	
+16:35:52 From Piyush Sharma to Shilpa Vaidya (direct message):
+	Replying to "Mam can I leave early?...Got something urgent to d...":
+	Thank you!!
+	Shilpa Vaidya:👍
+	
+16:37:27 From Shilpa Vaidya to Everyone:
+	====================
+	
+16:38:09 From Aman Prakash to Shilpa Vaidya (direct message):
+	packages of pre-defined functions
+	
+16:38:14 From nandan reddy to Shilpa Vaidya (direct message):
+	pre built functions?
+	
+16:38:21 From Sushanth Reddy to Shilpa Vaidya (direct message):
+	collection of modules
+	
+16:38:22 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	lets us add additional functionalities to your code
+	
+16:38:36 From BHARATH KUMAR ANNA to Shilpa Vaidya (direct message):
+	A set of packages.
+	
+16:38:55 From Sushanth Reddy to Shilpa Vaidya (direct message):
+	NumPy, pandas, scikit-learn examples
+	
+16:39:06 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	math 
+	random
+	numpy
+	etc...
+	
+16:39:27 From nandan reddy to Everyone:
+	mutable we can change values
+	
+16:39:27 From Navyatha A to Shilpa Vaidya (direct message):
+	mutable=list
+	
+16:39:29 From Mounika to Shilpa Vaidya (direct message):
+	collections of prewritten codes
+	
+16:39:38 From nandan reddy to Everyone:
+	immutable we cannot change values
+	
+16:39:39 From Prashanth Chowdary Upputuri to Everyone:
+	which can be altered are mutable and cannot be altered is immutable
+	
+16:39:40 From BHARATH KUMAR ANNA to Shilpa Vaidya (direct message):
+	Mutable are: lists, sets
+	
+16:39:42 From Aman Prakash to Shilpa Vaidya (direct message):
+	Mutable data types are data types that can be edited. Immutable ones can't be changed
+	
+16:39:46 From Shrujan to Everyone:
+	only correct answers u want ? @BHARATH KUMAR ANNA
+	
+16:39:46 From Dipti Dhande to Shilpa Vaidya (direct message):
+	mutable which can be change and immutable that cant be change
+	
+16:39:51 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	mutable means we can change
+	immutable means we can't change once created
+	
+16:39:55 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	mutable datatypes are data types where we can change the value after initialisation
+	immutable is vice versa
+	
+16:40:00 From BHARATH KUMAR ANNA to Everyone:
+	Immutable: strings and tuples
+	
+16:40:02 From Sushanth Reddy to Everyone:
+	which can be altered - list -mutable
+	not altered - tuple - immutable
+	
+16:40:03 From Aman Prakash to Shilpa Vaidya (direct message):
+	Mutable - List, arrays
+	Immutable - String, Tuple
+	
+16:40:07 From Navyatha A to Shilpa Vaidya (direct message):
+	immutable = tuple, strings
+	
+16:40:13 From Mounika to Shilpa Vaidya (direct message):
+	Mutable:can be change
+	
+16:40:15 From Sreemathi varshini to Shilpa Vaidya (direct message):
+	Mutable - List, dictionary Immutable - Tuple, Set
+	
+16:40:18 From BHARATH KUMAR ANNA to Everyone:
+	intialisation
+	
+16:40:20 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	constructor for a class
+	
+16:40:22 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	it is a consturctor
+	
+16:40:25 From BHARATH KUMAR ANNA to Everyone:
+	constructor
+	
+16:40:27 From Mounika to Shilpa Vaidya (direct message):
+	intilaization
+	
+16:40:27 From Sampath Vuda to Everyone:
+	like a constructor i java
+	
+16:40:29 From Navyatha A to Shilpa Vaidya (direct message):
+	contructor
+	
+16:40:31 From Sushanth Reddy to Everyone:
+	constructor
+	
+16:40:32 From nandan reddy to Everyone:
+	it is used to initialize variables
+	
+16:40:38 From Aman Prakash to Shilpa Vaidya (direct message):
+	init function is used for initialising a class
+	
+16:40:38 From Dipti Dhande to Shilpa Vaidya (direct message):
+	it is a constroctor
+	
+16:40:41 From nandan reddy to Everyone:
+	to get key value pairs
+	
+16:40:42 From Sreemathi varshini to Shilpa Vaidya (direct message):
+	Its a constructor which gets initialised whwn thw object is created
+	
+16:40:44 From BHARATH KUMAR ANNA to Everyone:
+	To fetch specific value
+	
+16:40:47 From BHARATH KUMAR ANNA to Everyone:
+	Using key
+	
+16:40:47 From Sampath Vuda to Everyone:
+	to get value of a particular key
+	
+16:40:48 From Prashanth Chowdary Upputuri to Everyone:
+	retrieve data
+	
+16:40:48 From Aman Prakash to Shilpa Vaidya (direct message):
+	to get key value pairs
+	
+16:40:50 From Navyatha A to Shilpa Vaidya (direct message):
+	get value of a key
+	
+16:40:52 From Sreemathi varshini to Shilpa Vaidya (direct message):
+	fetch the values
+	
+16:40:54 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	to get key,values of a dictionary
+	
+16:40:56 From Dipti Dhande to Shilpa Vaidya (direct message):
+	to get specific value
+	
+16:40:56 From Sushanth Reddy to Everyone:
+	retrieveing data
+	
+16:41:04 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	set
+	
+16:41:03 From Sreemathi varshini to Shilpa Vaidya (direct message):
+	Set
+	
+16:41:04 From Aman Prakash to Shilpa Vaidya (direct message):
+	set
+	
+16:41:05 From BHARATH KUMAR ANNA to Everyone:
+	sets
+	
+16:41:04 From SESHADRI NAIDU to Everyone:
+	retrieve the value associated with a given key
+	
+16:41:04 From Sampath Vuda to Everyone:
+	set
+	
+16:41:05 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	sets
+	
+16:41:05 From Sushanth Reddy to Everyone:
+	set
+	
+16:41:06 From Dipti Dhande to Shilpa Vaidya (direct message):
+	set
+	
+16:41:07 From nandan reddy to Everyone:
+	tuple set
+	
+16:41:08 From Mounika to Shilpa Vaidya (direct message):
+	key values pairs
+	
+16:41:09 From Prashanth Chowdary Upputuri to Everyone:
+	set
+	
+16:41:11 From SESHADRI NAIDU to Everyone:
+	set
+	
+16:41:11 From Navyatha A to Shilpa Vaidya (direct message):
+	sets
+	
+16:41:12 From Bhaskar Pakki to Everyone:
+	set
+	
+16:41:12 From Kunal Shaw to Everyone:
+	set
+	
+16:41:13 From Mounika to Shilpa Vaidya (direct message):
+	tuple
+	
+16:41:14 From BHARATH KUMAR ANNA to Everyone:
+	Tuple is ordered
+	
+16:41:27 From Chethan to Everyone:
+	set
+	
+16:41:33 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	lets u inherit and use properties of parent class
+	
+16:41:33 From nandan reddy to Everyone:
+	Replying to "Tuple is ordered":
+	oh yeah sorry 😅 take it for wrong answer data
+	
+16:41:34 From BHARATH KUMAR ANNA to Everyone:
+	Parent class to base class
+	
+16:41:35 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	deriving properties from one class to another
+	
+16:41:35 From Aman Prakash to Shilpa Vaidya (direct message):
+	a child class inherits functions and variables from a parent class
+	
+16:41:41 From BHARATH KUMAR ANNA to Everyone:
+	Or child class
+	
+16:41:42 From Prashanth Chowdary Upputuri to Everyone:
+	getting attributes and properties from parent class to child class
+	
+16:41:47 From nandan reddy to Everyone:
+	get values or methods from parent class
+	
+16:41:48 From Jagadesh to Everyone:
+	acquiring the properties of parent by child
+	
+16:41:49 From nandan reddy to Everyone:
+	to child
+	
+16:41:51 From Mounika to Shilpa Vaidya (direct message):
+	parent to child functions
+	
+16:41:53 From Sampath Vuda to Everyone:
+	parent to child properties  aquring
+	
+16:41:58 From SESHADRI NAIDU to Everyone:
+	transferring  properties from one class to another class
+	
+16:41:58 From Shrujan to Everyone:
+	Inheritance in Python is when a function borrows memory from another variable and becomes invisible.
+	Shrihari R Bedre:😁
+	Bhaskar Pakki:😂
+	
+16:42:01 From Bhaskar Pakki to Everyone:
+	one class acquiring the properties of another class
+	
+16:42:01 From BHARATH KUMAR ANNA to Everyone:
+	Get methods from parent
+	
+16:42:02 From Sushanth Reddy to Everyone:
+	properties or characteristics which can be inherited
+	
+16:42:32 From Chethan to Everyone:
+	one class child gets the properties and methods of another class parent
+	
+16:42:43 From Prashanth Chowdary Upputuri to Everyone:
+	Replying to "Inheritance in Python is when a function borrows m...":
+	FoWS-rXakAAHUa2.jpg
+	Shilpa Vaidya, Bhaskar Pakki, nandan reddy:😂
+	
+16:43:01 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	in scripts we script in procedural language we proceeds
+	
+16:43:25 From Aman Prakash to Shilpa Vaidya (direct message):
+	compilation?
+	
+16:43:34 From Mounika to Shilpa Vaidya (direct message):
+	coding part and structure path
+	
+16:43:38 From Shrujan to Everyone:
+	A scripting language is used only to write movie scripts and procedural languages are only used by doctors to perform surgery steps in code.
+	Shrihari R Bedre, BHARATH KUMAR ANNA, Sampath Vuda, Bhaskar Pakki:😂
+	
+16:43:54 From Chethan to Everyone:
+	scripting language is mainly used to automate tasks, usually inside other programs.
+	procedural language focuses on step by step instructions using procedures/functions to solve problems
+	
+16:43:57 From Aman Prakash to Everyone:
+	Replying to "A scripting language is used only to write movie s...":
+	0 hesitation
+	
+16:44:00 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	exception handling
+	
+16:44:01 From nandan reddy to Everyone:
+	try catch
+	
+16:44:00 From Sushanth Reddy to Everyone:
+	error handling
+	
+16:44:05 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	using exceptional handling
+	
+16:44:06 From BHARATH KUMAR ANNA to Everyone:
+	Using try catch
+	
+16:44:11 From Sampath Vuda to Everyone:
+	debug
+	
+16:44:16 From Mounika to Shilpa Vaidya (direct message):
+	try, catch block
+	
+16:44:18 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	try,except,finally
+	
+16:44:22 From Sushanth Reddy to Everyone:
+	try, except, else, and finally
+	
+16:44:25 From BHARATH KUMAR ANNA to Everyone:
+	Exception handling and error handling
+	
+16:44:33 From Sreemathi varshini to Shilpa Vaidya (direct message):
+	Exceptionhandling
+	
+16:44:37 From Shrujan to Everyone:
+	You simply ignore them and hope they go away on their own.-error handling
+	Sampath Vuda, Bhaskar Pakki:😂
+	
+16:44:41 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	if we give values other than length specified during initialisation
+	
+16:44:43 From BHARATH KUMAR ANNA to Everyone:
+	Try to get elements index out of list
+	Sushanth Reddy, Bhaskar Pakki:😂
+	Sampath Vuda:🤣
+	
+16:44:49 From Aman Prakash to Shilpa Vaidya (direct message):
+	index given for an array/list is not in the range of the length of the list/array
+	
+16:45:09 From Mounika to Shilpa Vaidya (direct message):
+	length is greater than equal to list
+	
+16:45:10 From nandan reddy to Everyone:
+	Replying to "You simply ignore them and hope they go away on th...":
+	if it works don't touch it
+	Sampath Vuda:✅
+	
+16:45:17 From BHARATH KUMAR ANNA to Everyone:
+	No strings attached.
+	Shrujan:😂
+	
+16:45:23 From Aman Prakash to Everyone:
+	Replying to "You simply ignore them and hope they go away on th...":
+	if it doesn't work, pray
+	BHARATH KUMAR ANNA:💯
+	
+16:45:22 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	"Shrujan is a"
+	
+16:45:43 From Mounika to Shilpa Vaidya (direct message):
+	data not found
+	
+16:46:22 From Shrihari R Bedre to Everyone:
+	KeyError occurs when you try to access a dictionary key that doesn’t exist.
+	
+16:46:23 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	if key values asked is not actually there in dictonary
+	
+16:46:42 From BHARATH KUMAR ANNA to Everyone:
+	If value not found.
+	
+16:46:43 From Aman Prakash to Shilpa Vaidya (direct message):
+	when we try to access a key value pair in a dictionary where it doesn't exist
+	
+16:46:50 From Shrujan to Everyone:
+	A KeyError happens when your keyboard gets jealous of your mouse
+	Shrihari R Bedre:😁
+	
+16:46:57 From Mounika to Shilpa Vaidya (direct message):
+	values not found
+	
+16:46:59 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	if there no key in dict u will get key error
+	if there is no value then u will get value error
+	
+16:47:02 From Shrihari R Bedre to Everyone:
+	when a function gets an argument of the right type but an inappropriate value.
+	
+16:47:02 From Kunal Shaw to Everyone:
+	ValueError occurs when an operation receives an invalid value
+	
+16:47:28 From BHARATH KUMAR ANNA to Everyone:
+	No error
+	
+16:47:33 From Mounika to Shilpa Vaidya (direct message):
+	key error the dictionary key not exist
+	
+16:47:33 From Sushanth Reddy to Everyone:
+	when a function is called with the proper argument type but with the wrong value.
+	
+16:47:39 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	upper(str)
+	
+16:47:57 From BHARATH KUMAR ANNA to Everyone:
+	Type cast
+	
+16:48:03 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	typemismatch
+	
+16:48:08 From Mounika to Shilpa Vaidya (direct message):
+	typecasting
+	
+16:48:16 From Sreemathi varshini to Shilpa Vaidya (direct message):
+	type error
+	
+16:48:28 From Shrihari R Bedre to Everyone:
+	Use type(variable) or isinstance(variable, str) to check if it's a string.
+	
+16:48:35 From Aman Prakash to Shilpa Vaidya (direct message):
+	it wont throw error when giving int to string type but vice versa it will give error
+	
+16:48:45 From Sameena Yasmin to Shilpa Vaidya (direct message):
+	ValueError: invalid literal for int() with base 10: 'ss'
+	
+16:48:44 From Shilpa Vaidya to Everyone:
+	{95AB8DB9-47A4-4209-81CE-5E09671DDC7D}.png
+	
+16:49:32 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	exceptions are runtime errors
+	
+16:49:38 From Aman Prakash to Shilpa Vaidya (direct message):
+	errors stop the flow of code.
+	
+16:49:41 From BHARATH KUMAR ANNA to Shilpa Vaidya (direct message):
+	Exception can be handled. Error is run time
+	
+16:49:44 From Shrihari R Bedre to Everyone:
+	Errors that usually stop the program; exceptions are recoverable issues you can handle with try-except.
+	
+16:49:45 From Chethan to Everyone:
+	Errors are serious issues in a program that usually can’t be handled during runtime.
+	exceptions are issues that can be caught and handled while the program is running.
+	
+16:49:49 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	error Is compiler
+	
+16:49:57 From Mounika to Shilpa Vaidya (direct message):
+	conditions that occur during program execution
+	
+16:50:12 From Prabhala Bala Subrahmanyam to Shilpa Vaidya (direct message):
+	error
+	
+16:50:18 From BHARATH KUMAR ANNA to Shilpa Vaidya (direct message):
+	File not found
+	
