@@ -39,6 +39,27 @@ def engagement_metrics_table():
     conn.close()
 
     print("✅ Engagement metrics updated successfully!")
+    
+    
+    
+def sentiment_analysis():
+    import sqlite3
+
+    # Connect to the DB
+    conn = sqlite3.connect("zoom_chat.db")
+    cursor = conn.cursor()
+
+    # Create engagement_metrics table if it doesn't exist
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS engagement_metrics (
+        sender TEXT PRIMARY KEY,
+        message_count INTEGER,
+        avg_sentiment REAL,
+        engagement_score REAL
+    )
+    """)
+    
+    return
 
 
 

@@ -350,7 +350,8 @@
             <i class="fas fa-smile me-2"></i>Sentiment Analysis
           </div>
           <div class="card-body">
-            <div id="sentimentChart"></div>
+            <div id="sentimentChart">
+              <iframe src="http://localhost:3000/d-solo/aejrzjiuucp34e/zoom-dashboard?orgId=1&from=1745487210915&to=1745508810915&timezone=browser&showCategory=Legend&theme=light&panelId=3&__feature.dashboardSceneSolo" width="380" height="250" frameborder="0"></iframe>
           </div>
         </div>
       </div>
@@ -366,49 +367,7 @@
     
 
     // Sentiment Chart
-    const sentimentOptions = {
-      series: [65, 25, 10],
-      chart: {
-        type: 'donut',
-        height: 300
-      },
-      labels: ['Positive', 'Neutral', 'Negative'],
-      colors: ['#10b981', '#f59e0b', '#ef4444'],
-      legend: {
-        position: 'bottom'
-      },
-      plotOptions: {
-        pie: {
-          donut: {
-            size: '65%',
-            labels: {
-              show: true,
-              total: {
-                show: true,
-                label: 'Total',
-                formatter: function(w) {
-                  return w.globals.seriesTotals.reduce((a, b) => a + b, 0) + '%';
-                }
-              }
-            }
-          }
-        }
-      },
-      responsive: [{
-        breakpoint: 480,
-        options: {
-          chart: {
-            width: 200
-          },
-          legend: {
-            position: 'bottom'
-          }
-        }
-      }]
-    };
-
-    const sentimentChart = new ApexCharts(document.querySelector("#sentimentChart"), sentimentOptions);
-    sentimentChart.render();
+    
 
     // File Upload Interaction
     const dropArea = document.getElementById('dropArea');
