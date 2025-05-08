@@ -43,5 +43,9 @@ Cache TTL: optional
 
 
 
+FRONT-END REQUIREMENTS:
 
+flask
+flask_sqlalchemy
+pymysql
 
