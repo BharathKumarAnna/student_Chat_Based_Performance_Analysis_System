@@ -19,7 +19,7 @@ A responsive web dashboard that visualizes and analyzes Zoom chat engagement dat
 
 * **Frontend**: HTML5, CSS3, Bootstrap 5, Font Awesome, Google Fonts
 * **Charts & Analytics**: ApexCharts, Grafana (via iframe)
-* **Backend (Expected)**: Python (Flask or FastAPI), with sentiment & NLP libraries (like `TextBlob`/`spaCy`)
+* **Backend (Expected)**: Python (Flask), with sentiment & NLP libraries (like `TextBlob`/`spaCy`)
 * **Data Processing**: Python scripts parsing `.txt` Zoom chat exports
 * **Deployment**: Localhost / Docker / Cloud server (configurable)
 
