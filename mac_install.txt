@@ -144,3 +144,9 @@ pip3 install flask flask_sqlalchemy pymysql
 
 grafana-cli plugins install grafana-image-renderer
 brew services restart grafana
+
+
+port settings:
+
+lsof -i :5000
+kill -9 1234

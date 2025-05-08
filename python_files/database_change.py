@@ -1,3 +1,13 @@
+# import sqlite3
+
+# # Connect to the DB
+# conn = sqlite3.connect("zoom_chat.db")
+# cursor = conn.cursor()
+
+# # Create engagement_metrics table if it doesn't exist
+# cursor.execute("DELETE FROM chat_data")
+
+
 def engagement_metrics_table():
     import sqlite3
 
